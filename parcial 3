@@ -1,0 +1,50 @@
+alexander@192.168.56.107's password:
+    +----------------------------------------------------------------------+
+    ¦                 • MobaXterm Personal Edition v22.1 •                 ¦
+    ¦               (SSH client, X server and network tools)               ¦
+    ¦                                                                      ¦
+    ¦ ? SSH session to alexander@192.168.56.107                            ¦
+    ¦   • Direct SSH      :  ?                                             ¦
+    ¦   • SSH compression :  ?                                             ¦
+    ¦   • SSH-browser     :  ?                                             ¦
+    ¦   • X11-forwarding  :  ?  (remote display is forwarded through SSH)  ¦
+    ¦                                                                      ¦
+    ¦ ? For more info, ctrl+click on help or visit our website.            ¦
+    +----------------------------------------------------------------------+
+
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-56-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of sáb 03 dic 2022 06:42:24 UTC
+
+  System load:  0.017578125       Processes:               119
+  Usage of /:   50.9% of 8.02GB   Users logged in:         1
+  Memory usage: 7%                IPv4 address for enp0s3: 192.168.56.107
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+0 updates can be applied immediately.
+
+Failed to connect to https://changelogs.ubuntu.com/meta-release-lts. Check your Internet connection or proxy settings
+
+
+Last login: Sat Dec  3 06:39:04 2022
+alexander@ubuntu-server:~$ sudo apt install mysql-server
+[sudo] password for alexander:
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias... Hecho
+Leyendo la información de estado... Hecho
+E: No se ha podido localizar el paquete mysql-server
+alexander@ubuntu-server:~$ sudo apt-get install php
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias... Hecho
+Leyendo la información de estado... Hecho
+E: No se ha podido localizar el paquete php
+alexander@ubuntu-server:~$
